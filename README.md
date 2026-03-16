@@ -64,33 +64,27 @@ This separation improves **code organization, maintainability, and scalability**
 
 ## 📁 Project Structure
 
-
+```
 StudentManagementSystem
 │
 ├── lib
-│ └── mysql-connector-j-9.6.0.jar
+│   └── mysql-connector-j-9.6.0.jar
 │
 ├── src
-│ └── com
-│ └── omkar
-│ └── StudentManagementSystem
-│ ├── DBConnection.java
-│ ├── Student.java
-│ ├── StudentDAO.java
-│ └── Main.java
+│   └── com
+│       └── omkar
+│           └── StudentManagementSystem
+│               ├── DBConnection.java
+│               ├── Student.java
+│               ├── StudentDAO.java
+│               └── Main.java
 │
 ├── README.md
 └── .gitignore
-
-
-
-
-
+```
 
 
 ---
-
-
 
 # How the Application Works
 
@@ -107,19 +101,12 @@ StudentManagementSystem
 ## ⚙️ How to Run the Project
 
 1. Install Java (JDK 8 or above)
-
-Check installation:
-
-
-java -version
-
+Check installation:java -version
 
 2. Install MySQL
-
 Make sure MySQL server is running.
 
 3. Create the Database
-
 Run the SQL queries in MySQL Workbench:
 
 ```sql
@@ -153,12 +140,12 @@ Run the Main.java file to start the application.
 
 ---
 
-```markdown
+`
 ## 📊 Example Console Output
 
 ================================================
 WELCOME TO STUDENT MANAGEMENT SYSTEM
-
+================================================
 1 Add Student
 2 View Students
 3 Delete Student
@@ -169,13 +156,15 @@ WELCOME TO STUDENT MANAGEMENT SYSTEM
 
 Enter your choice:
 
+---
 
 ### Sample Student Table Output
 
 ================================================
 ID NAME AGE GRADE
+================================================
 1 Omkar 22 A
-2 Rahul 21 B
+2 Rahul 21 B```
 
 ---
 
