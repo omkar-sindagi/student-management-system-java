@@ -96,6 +96,7 @@ public class StudentDAO {
             ps.setInt(1, id);
 
                 java.sql.ResultSet rs = ps.executeQuery();
+                 System.out.println();
 
             if (rs.next()) {
 
@@ -105,6 +106,10 @@ public class StudentDAO {
                     rs.getInt("age") + " | " +
                     rs.getString("grade")
                 );
+                // System.out.println("Student ID: " + rs.getInt("id"));
+                // System.out.println("Student Name: " + rs.getString("name"));
+                // System.out.println("Student Age: " + rs.getInt("age"));
+                // System.out.println("Student Grade: " + rs.getString("grade"));
 
             } else {
 

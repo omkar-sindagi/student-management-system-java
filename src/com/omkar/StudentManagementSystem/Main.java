@@ -62,15 +62,23 @@ public class Main {
                 int age;
                 while (true) {
                     System.out.print("Enter Age: ");
-                    age = sc.nextInt();
 
-                    if (age > 0) {
-                        break;
+                     // Check if the next input is an integer
+                    if (sc.hasNextInt()) {
+                        age = sc.nextInt();
+
+                        if (age > 0) {
+                            break;
+                        } else {
+                            System.out.println("Age must be greater than 0.");
+                        }
                     } else {
-                        System.out.println("Age must be greater than 0.");
+                        System.out.println("Invalid input. Please enter a number.");
+                        sc.next(); // consume the wrong input
                     }
+
                 }
-                sc.nextLine();
+                sc.nextLine(); //clear buffer
                 student.setAge(age);
 
  //Input for Grade:         
@@ -122,14 +130,17 @@ public class Main {
             }
 
 
-//This is for Search students:
+//This is for Search students:4
 
             else if (choice == 4) {
                 System.out.print("Enter Student ID to search: ");
                 int id = sc.nextInt();
+                sc.nextLine();
                 dao.searchStudentById(id);
                 System.out.println("\nPress Enter to continue...");
                 sc.nextLine();
+                sc.nextLine();
+                
             }
 
 
