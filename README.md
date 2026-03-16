@@ -184,11 +184,11 @@ ID NAME AGE GRADE
 
 # Possible enhancements for the project:
 
-Add GUI using Java Swing or JavaFX
-Implement user authentication
-Add export to CSV or Excel
-Convert into Spring Boot REST API
-Integrate with a web frontend
+- Add GUI using Java Swing or JavaFX
+- Implement user authentication
+- Add export to CSV or Excel
+- Convert into Spring Boot REST API
+- Integrate with a web frontend
 
 ---
 
@@ -197,8 +197,8 @@ Integrate with a web frontend
 **Omkar Sindagi**
 GitHub:
 https://github.com/omkar-sindagi
-```
 ---
+```
 
 
 
