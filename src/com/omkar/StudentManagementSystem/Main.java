@@ -171,7 +171,7 @@ public class Main {
                 while (System.currentTimeMillis() - end < 2000) {
                 // do nothing, just wait
                 }
-                System.out.println("\n\nThank you for using Student Management System");
+                System.out.println("\nThank you for using Student Management System");
                 break;
             } 
 
