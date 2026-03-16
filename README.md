@@ -140,7 +140,7 @@ Run the Main.java file to start the application.
 
 ---
 
-`
+```
 ## 📊 Example Console Output
 
 ================================================
