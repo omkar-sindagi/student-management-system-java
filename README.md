@@ -140,7 +140,7 @@ Run the Main.java file to start the application.
 
 ---
 
-```
+`
 ## 📊 Example Console Output
 
 ================================================
@@ -164,10 +164,10 @@ Enter your choice:
 ID NAME AGE GRADE
 ================================================
 1 Omkar 22 A
-2 Rahul 21 B```
+2 Rahul 21 B`
 
 ---
-
+`
 # 📚 Learning Outcomes
 
 **Through this project I learned:**
