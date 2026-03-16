@@ -1,8 +1,8 @@
-# Student Management System (Java + JDBC + MySQL)
+# 🎓 Student Management System
 
-![Java](https://img.shields.io/badge/Java-Backend-blue)
-![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
-![JDBC](https://img.shields.io/badge/Java-JDBC-green)
+![Java](https://img.shields.io/badge/Java-Backend-red)
+![JDBC](https://img.shields.io/badge/JDBC-Database-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
 
 A **console-based Student Management System** developed using **Java, JDBC, and MySQL**. 
 This application allows users to manage student records efficiently by performing **CRUD operations (Create, Read, Update, Delete)** through a menu-driven interface.
@@ -11,7 +11,7 @@ The project demonstrates practical implementation of **Java database connectivit
 
 ---
 
-# Features
+# 🚀Features
 
 - Add Student
 - View All Students
@@ -25,7 +25,7 @@ The project demonstrates practical implementation of **Java database connectivit
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
 - **Java**
 - **JDBC (Java Database Connectivity)**
@@ -62,10 +62,10 @@ This separation improves **code organization, maintainability, and scalability**
 
 ---
 
-# Project Structure
+## 📁 Project Structure
 
 
-student-management-system-java
+StudentManagementSystem
 │
 ├── lib
 │ └── mysql-connector-j-9.6.0.jar
@@ -75,15 +75,22 @@ student-management-system-java
 │ └── omkar
 │ └── StudentManagementSystem
 │ ├── DBConnection.java
-│ ├── Main.java
 │ ├── Student.java
-│ └── StudentDAO.java
+│ ├── StudentDAO.java
+│ └── Main.java
 │
 ├── README.md
 └── .gitignore
 
 
+
+
+
+
+
 ---
+
+
 
 # How the Application Works
 
@@ -94,60 +101,63 @@ student-management-system-java
 | **DBConnection.java** | Establishes connection between Java application and MySQL database |
 | **Student.java**      | Model class representing the student entity                        |
 
+
 ---
 
-# Database Setup
+## ⚙️ How to Run the Project
 
-Create the database:
+1. Install Java (JDK 8 or above)
 
-```sql```
+Check installation:
+
+
+java -version
+
+
+2. Install MySQL
+
+Make sure MySQL server is running.
+
+3. Create the Database
+
+Run the SQL queries in MySQL Workbench:
+
+```sql
 CREATE DATABASE studentdb;
 
----
-
-## Use the database:
 USE studentdb;
 
----
-
-## Create the table:
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     age INT,
-    grade CHAR(1)
+    grade VARCHAR(10)
 );
 
----
+Update Database Credentials
 
-## How to Run the Project
+Edit this file:
 
-1 Install Java (JDK 8 or above)
-    Check installation: java -version
-2 Install MySQL
-    Ensure MySQL server is running.
-3 Create the Database
-    Run the SQL queries provided above in MySQL Workbench.
-4 Update Database Credentials
-
-## Edit this file:
 DBConnection.java
 
-## Update credentials:
-jdbc:mysql://localhost:3306/studentdb
-username: ur username
-password: ur password
-5 Compile and Run
+Update the credentials:
 
-**Run the Main.java file to start the application.**
+jdbc:mysql://localhost:3306/studentdb
+username: your_username
+password: your_password
+
+Compile and Run
+
+Run the Main.java file to start the application.
+
 
 ---
 
-## Sample Console Output
+```markdown
+## 📊 Example Console Output
 
-========================================
+================================================
 WELCOME TO STUDENT MANAGEMENT SYSTEM
-========================================
 
 1 Add Student
 2 View Students
@@ -159,19 +169,17 @@ WELCOME TO STUDENT MANAGEMENT SYSTEM
 
 Enter your choice:
 
----
 
-## Example student table output:
+### Sample Student Table Output
 
-========================================
-ID    NAME            AGE        GRADE
-========================================
-1     Omkar           22         A
-2     Rahul           21         B
+================================================
+ID NAME AGE GRADE
+1 Omkar 22 A
+2 Rahul 21 B
 
 ---
 
-## Learning Outcomes
+# 📚 Learning Outcomes
 
 **Through this project I learned:**
 
@@ -185,7 +193,7 @@ ID    NAME            AGE        GRADE
 
 ---
 
-## Possible enhancements for the project:
+# Possible enhancements for the project:
 
 Add GUI using Java Swing or JavaFX
 Implement user authentication
@@ -195,16 +203,13 @@ Integrate with a web frontend
 
 ---
 
-## Author
+## 👨‍💻Developer
 
 **Omkar Sindagi**
 GitHub:
 https://github.com/omkar-sindagi
 
 ---
-
-
-
 
 
 
