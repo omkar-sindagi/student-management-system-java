@@ -167,7 +167,7 @@ ID NAME AGE GRADE
 2 Rahul 21 B`
 
 ---
-`
+```
 # 📚 Learning Outcomes
 
 **Through this project I learned:**
@@ -197,7 +197,7 @@ Integrate with a web frontend
 **Omkar Sindagi**
 GitHub:
 https://github.com/omkar-sindagi
-
+```
 ---
 
 
